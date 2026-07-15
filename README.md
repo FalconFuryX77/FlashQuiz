@@ -2,7 +2,7 @@
 
 A desktop flashcard application built in Java Swing that helps users create, organize, revise, and test themselves using interactive flashcards.
 
-FlashQuiz was developed as an Object-Oriented Programming project to demonstrate Java GUI development, file handling, object-oriented design, and event-driven programming. The application supports both subjective and multiple-choice flashcards while providing dedicated Revision and Quiz modes for effective learning. :contentReference[oaicite:2]{index=2}
+FlashQuiz was developed as an Object-Oriented Programming project to demonstrate Java GUI development, file handling, object-oriented design, and event-driven programming. The application supports both subjective and multiple-choice flashcards while providing dedicated Revision and Quiz modes for effective learning.
 
 ---
 
