@@ -1,0 +1,63 @@
+Q: Who am I?
+A: <option>Ananya</option><option>Praneel</option><correct>Praneel</correct>
+
+Q: What is Java?
+A: <option>A scripting language</option><option>A markup language</option><option>An object-oriented programming language</option><option>A database query language</option><correct>An object-oriented programming language</correct>
+
+Q: Who created Java?
+A: <option>Bill Gates</option><option>James Gosling</option><option>Bjarne Stroustrup</option><option>Guido van Rossum</option><correct>James Gosling</correct>
+
+Q: What is the Java Virtual Machine (JVM)?
+A: <option>A physical computer for running Java</option><option>A virtual environment that executes Java bytecode</option><option>A compiler for Java code</option><option>An integrated development environment</option><correct>A virtual environment that executes Java bytecode</correct>
+
+Q: What does JDK stand for?
+A: <option>Java Development Kit</option><option>Java Deployment Kit</option><option>Java Design Kit</option><option>Java Database Kit</option><correct>Java Development Kit</correct>
+
+Q: Which of these is not a Java access modifier?
+A: <option>public</option><option>private</option><option>protected</option><option>friendly</option><correct>friendly</correct>
+
+Q: Explain the importance of object-oriented programming in Java.
+A: Object-oriented programming in Java provides a structured approach to software development by organizing code into objects that represent real-world entities. It enables encapsulation (data hiding), inheritance (code reuse), polymorphism (flexibility), and abstraction (simplification). These principles make Java programs more modular, maintainable, and scalable, allowing developers to create complex applications with reusable components that are easier to test, debug, and extend over time.
+
+Q: What is the correct way to declare a main method in Java?
+A: <option>public void main(String[] args)</option><option>public static void main()</option><option>public static void main(String[] args)</option><option>public static main(String[] args)</option><correct>public static void main(String[] args)</correct>
+
+Q: Discuss the advantages and disadvantages of using Java for web development.
+A: Advantages of Java for web development include platform independence, robust security features, scalability for enterprise applications, and a rich ecosystem of frameworks like Spring and Hibernate. Disadvantages include verbose syntax requiring more code than some alternatives, slower development speed compared to scripting languages, steeper learning curve, potentially higher hosting costs, and performance overhead from the JVM, though this has improved with modern optimizations. Java is particularly well-suited for large-scale, complex enterprise applications rather than small, rapid-development projects.
+
+Q: What is method overloading in Java?
+A: <option>Defining a method in a subclass with the same signature as in the parent class</option><option>Defining multiple methods with the same name but different parameters</option><option>Hiding a method in a parent class</option><option>Creating multiple instances of the same method</option><correct>Defining multiple methods with the same name but different parameters</correct>
+
+Q: How does Java handle memory management and garbage collection?
+A: Java handles memory management through automatic garbage collection, relieving developers from manual memory allocation and deallocation. Objects are created in the heap memory, and the JVM's garbage collector automatically identifies and removes objects that are no longer referenced by the program. This process involves marking live objects, removing unreferenced ones, and compacting memory to reduce fragmentation. Java employs different garbage collection algorithms (like Serial, Parallel, CMS, and G1) that can be selected based on application needs, balancing throughput, pause times, and memory footprint.
+
+Q: What is method overriding in Java?
+A: <option>Defining multiple methods with the same name but different parameters</option><option>Redefining a method in a subclass that was already defined in the parent class</option><option>Creating multiple instances of the same method</option><option>Hiding variables from the parent class</option><correct>Redefining a method in a subclass that was already defined in the parent class</correct>
+
+Q: What are the best practices for writing clean and maintainable Java code?
+A: Best practices for clean and maintainable Java code include following consistent naming conventions, keeping methods short and focused on a single responsibility, writing comprehensive documentation with Javadoc, using appropriate design patterns, implementing proper exception handling, writing unit tests, avoiding deep nesting, minimizing code duplication through inheritance and composition, using interfaces for abstraction, following the SOLID principles, and performing regular code reviews. Additionally, using modern Java features appropriately and leveraging tools like static code analyzers can significantly improve code quality and maintainability.
+
+Q: Which keyword is used to inherit a class in Java?
+A: <option>implements</option><option>extends</option><option>inherits</option><option>using</option><correct>extends</correct>
+
+Q: Discuss the role of interfaces and abstract classes in Java design.
+A: Interfaces and abstract classes in Java serve as foundational tools for abstraction and polymorphism. Interfaces define contracts that implementing classes must fulfill, enabling multiple inheritance of behavior without state. They're ideal for defining capabilities that unrelated classes might share. Abstract classes, conversely, provide partial implementations with both concrete and abstract methods, establishing a common base for related classes. They're suited for hierarchies with shared state and behavior. The choice between them depends on design needs: interfaces for defining capabilities across diverse classes, abstract classes for establishing base functionality within a clear inheritance hierarchy. Together, they enable flexible, modular, and extensible code architecture.
+
+Q: What is an interface in Java?
+A: <option>A class with all abstract methods</option><option>A blueprint that can be used to implement a class</option><option>A collection of abstract methods and constants</option><option>A graphical user interface component</option><correct>A collection of abstract methods and constants</correct>
+
+Q: Which collection class in Java is synchronized?
+A: <option>ArrayList</option><option>HashMap</option><option>Vector</option><option>LinkedList</option><correct>Vector</correct>
+
+Q: What is the purpose of the 'final' keyword in Java?
+A: <option>To prevent inheritance</option><option>To prevent method overriding</option><option>To make a variable constant</option><option>All of the above</option><correct>All of the above</correct>
+
+Q: What is an exception in Java?
+A: <option>A syntax error</option><option>A runtime error</option><option>A compile-time error</option><option>A logical error</option><correct>A runtime error</correct>
+
+Q: What is the difference between checked and unchecked exceptions in Java?
+A: Checked exceptions are exceptions that must be either caught or declared in the method signature using the throws clause. They extend Exception but not RuntimeException and represent conditions that a reasonable application might want to catch, like IOException or SQLException. The compiler enforces handling of these exceptions. Unchecked exceptions extend RuntimeException and represent programming errors like NullPointerException or ArrayIndexOutOfBoundsException. They don't need to be explicitly caught or declared, as they typically indicate bugs that should be fixed rather than handled at runtime. This distinction helps developers distinguish between exceptional conditions that should be anticipated versus programming errors.
+
+Q: What does the 'static' keyword mean in Java?
+A: <option>The variable or method belongs to the class, not instances</option><option>The variable or method cannot be changed</option><option>The variable or method is always accessible</option><option>The variable or method is created at compile time</option><correct>The variable or method belongs to the class, not instances</correct>
+
